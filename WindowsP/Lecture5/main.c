@@ -23,7 +23,7 @@ void setBackground(); //배경 초기화 함수
 Windows myWindow[2]; //윈도우 창 갯수 2개
 
 // ASCII 아트를 저장할 2차원 배열
-char map[HEIGHT_MAP][WIDTH_MAP + 20] = {
+char map[HEIGHT_MAP][WIDTH_MAP + 10] = {
     "+----------------------------------------------------------------------------------------------------------+",
     "|  /\\_/\\        / \\__/ \\      / \\     / \\      / \\__/ \\      / \\__/ \\      / \\     / \\      / \\__/ \\       |",
     "| ( o.o )      (  o o  )    ( o.o )   ( o.o )   (  o o  )    ( o.o )   ( o.o )   (  o o  )    ( o.o )      |",
@@ -47,7 +47,6 @@ char map[HEIGHT_MAP][WIDTH_MAP + 20] = {
     "|                                                                                                          |",
     "+----------------------------------------------------------------------------------------------------------+"
 };
-
 
 int main(void)
 {
@@ -146,7 +145,25 @@ void draWindow(Windows* win)
         printf("-");
     }
     printf("+\n\033[0m"); // 색상 초기화
+
+    char input;
+    for (i = 0; i < height - 4; i++)
+    {
+        gotoxy(x + 1, y + i + 3);
+        for (j = 0; j < width - 2; j++)
+        {
+            
+            input = _getch();
+            printf("%s%c\033[44m", cl, input);
+            if (input == '\r')
+            {
+                break;
+            }
+        }
+    }
+   
 }
+
 void setBackground()
 {
     int i, j;
