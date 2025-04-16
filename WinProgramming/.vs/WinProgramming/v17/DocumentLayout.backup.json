@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\inhaWin25\\WinProgramming\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AF9A85-A996-45D7-99A7-D042A5BA0169}|WinProgramming\\WinProgramming.vcxproj|C:\\inhaWin25\\WinProgramming\\WinProgramming\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F6AF9A85-A996-45D7-99A7-D042A5BA0169}|WinProgramming\\WinProgramming.vcxproj|solutionrelative:WinProgramming\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AF9A85-A996-45D7-99A7-D042A5BA0169}|WinProgramming\\WinProgramming.vcxproj|C:\\inhaWin25\\WinProgramming\\WinProgramming\\mywin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F6AF9A85-A996-45D7-99A7-D042A5BA0169}|WinProgramming\\WinProgramming.vcxproj|solutionrelative:WinProgramming\\mywin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6AF9A85-A996-45D7-99A7-D042A5BA0169}|WinProgramming\\WinProgramming.vcxproj|C:\\inhaWin25\\WinProgramming\\WinProgramming\\mywin.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F6AF9A85-A996-45D7-99A7-D042A5BA0169}|WinProgramming\\WinProgramming.vcxproj|solutionrelative:WinProgramming\\mywin.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mywin.h",
+              "DocumentMoniker": "C:\\inhaWin25\\WinProgramming\\WinProgramming\\mywin.h",
+              "RelativeDocumentMoniker": "WinProgramming\\mywin.h",
+              "ToolTip": "C:\\inhaWin25\\WinProgramming\\WinProgramming\\mywin.h",
+              "RelativeToolTip": "WinProgramming\\mywin.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-16T00:27:10.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mywin.c",
+              "DocumentMoniker": "C:\\inhaWin25\\WinProgramming\\WinProgramming\\mywin.c",
+              "RelativeDocumentMoniker": "WinProgramming\\mywin.c",
+              "ToolTip": "C:\\inhaWin25\\WinProgramming\\WinProgramming\\mywin.c",
+              "RelativeToolTip": "WinProgramming\\mywin.c",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAEIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-16T00:27:00.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\inhaWin25\\WinProgramming\\WinProgramming\\main.c",
+              "RelativeDocumentMoniker": "WinProgramming\\main.c",
+              "ToolTip": "C:\\inhaWin25\\WinProgramming\\WinProgramming\\main.c*",
+              "RelativeToolTip": "WinProgramming\\main.c*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-16T00:26:44.943Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

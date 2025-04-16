@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\inhaWin25\\WindowsP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92D0B449-1642-4536-87C5-3B1A64E95B9F}|Lecture06\\Lecture06.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture06\\key2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{92D0B449-1642-4536-87C5-3B1A64E95B9F}|Lecture06\\Lecture06.vcxproj|solutionrelative:Lecture06\\key2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C67A3EFB-1D27-46E6-919D-047EE96170E7}|Project1\\Project1.vcxproj|C:\\inhaWin25\\WindowsP\\Project1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C67A3EFB-1D27-46E6-919D-047EE96170E7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9B87A85-0566-421A-A664-8C9531B5FCBC}|Lecture5\\Lecture5.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture5\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D9B87A85-0566-421A-A664-8C9531B5FCBC}|Lecture5\\Lecture5.vcxproj|solutionrelative:Lecture5\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A4BB974-2130-4B42-9559-F5874A9BF543}|Lecture07\\Lecture07.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture07\\Lt07.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3A4BB974-2130-4B42-9559-F5874A9BF543}|Lecture07\\Lecture07.vcxproj|solutionrelative:Lecture07\\Lt07.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D0B449-1642-4536-87C5-3B1A64E95B9F}|Lecture06\\Lecture06.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture06\\key2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92D0B449-1642-4536-87C5-3B1A64E95B9F}|Lecture06\\Lecture06.vcxproj|solutionrelative:Lecture06\\key2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Project1\\main.c",
+              "RelativeDocumentMoniker": "Project1\\main.c",
+              "ToolTip": "C:\\inhaWin25\\WindowsP\\Project1\\main.c",
+              "RelativeToolTip": "Project1\\main.c",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-15T06:15:32.441Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lt07.c",
+              "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture07\\Lt07.c",
+              "RelativeDocumentMoniker": "Lecture07\\Lt07.c",
+              "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture07\\Lt07.c",
+              "RelativeToolTip": "Lecture07\\Lt07.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-15T08:29:54.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "key2.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture06\\key2.c",
               "RelativeDocumentMoniker": "Lecture06\\key2.c",
               "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture06\\key2.c",
               "RelativeToolTip": "Lecture06\\key2.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-08T08:09:22.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T08:09:22.8Z"
             },
             {
               "$type": "Document",
@@ -41,9 +74,10 @@
               "RelativeDocumentMoniker": "Lecture5\\main.c",
               "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture5\\main.c",
               "RelativeToolTip": "Lecture5\\main.c",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-06T15:15:50.297Z"
+              "WhenOpened": "2025-04-06T15:15:50.297Z",
+              "EditorCaption": ""
             }
           ]
         }
