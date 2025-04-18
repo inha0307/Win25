@@ -2,6 +2,16 @@ int getConsoleWidth();
 int getConsoleHeight();
 void move_cursor(int row, int col);
 
+typedef struct Butten
+{
+    int x;
+    int y;
+    int width;
+    int height;
+    int color[2];
+
+}Butten;
+
 
 typedef struct Win 
 {
@@ -12,6 +22,8 @@ typedef struct Win
     char name[100];     // 윈도우의 이름
     int color;          // 윈도우의 컬러
     int isMax;          // 윈도우의 최대화 여부 (0: 비최대화, 1: 최대화)
+    Butten butten[10];
 }MyWin;
+
 
 void DrawWin(MyWin a);
