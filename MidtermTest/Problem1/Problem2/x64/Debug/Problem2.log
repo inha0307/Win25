@@ -1,3 +1,0 @@
-﻿  main.c
-C:\inhaWin25\MidtermTest\Problem1\Problem2\main.c(100,17): warning C4101: 'title' :참조되지 않은 지역 변수입니다.
-  Problem2.vcxproj -> C:\inhaWin25\MidtermTest\Problem1\x64\Debug\Problem2.exe
