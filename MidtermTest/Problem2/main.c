@@ -113,6 +113,8 @@ int main() {
 
     DrawBGWithTaskbar(80, 25);
     drawConsoleWindow(startX, startY, winwidth, winheight, "나의 멋진 윈도우", color);
+    drawConsoleWindow(startX+1, startY+2, winwidth, winheight, "나의 멋진 윈도우", 45);
+    drawConsoleWindow(startX + 2, startY + 4, winwidth, winheight, "나의 멋진 윈도우", 46);
 
 
     while (1)
@@ -120,6 +122,8 @@ int main() {
         // 여백 영역 기준으로 좌표 제한(clamping)
         DrawBGWithTaskbar(80, 25);
         drawConsoleWindow(startX, startY, winwidth, winheight, "나의 멋진 윈도우", color);
+        drawConsoleWindow(startX + 1, startY + 2, winwidth, winheight, "나의 멋진 윈도우", 45);
+        drawConsoleWindow(startX + 2, startY + 4, winwidth, winheight, "나의 멋진 윈도우", 46);
 
         GetCursorPos(&mousePos);
         mouseX = mousePos.x / 9;
@@ -134,15 +138,17 @@ int main() {
         if (mouseY > maxY) mouseY = maxY;
         move_cursor(mouseY, mouseX);
         printf("\033[44m\033[30m<\033[0m");
+        move_cursor(mouseY-1, mouseX);
+        printf("\033[44m\033[30m!~(^-^ )~@\033[0m");
+        Sleep(100);
+        move_cursor(mouseY - 1, mouseX);
+        printf("\033[44m\033[30m      \033[0m");
+        Sleep(100);
 
         int x = startX + width - 3;
         int y = startY + 1;
 
-        SHORT currLButtonState = (GetAsyncKeyState(VK_LBUTTON) & 0x8000 || GetAsyncKeyState(VK_RBUTTON) & 0x8000) ? 1 : 0;
-        if (currLButtonState == 1 && prevLButtonState == 0)
-        {
-
-        }
+       
     }
 
     move_cursor(40, 0);
