@@ -1,0 +1,4 @@
+﻿  main.c
+C:\inhaWin25\WinProgramming\Winprogram\main.c(155,12): warning C4101: 'idx' :참조되지 않은 지역 변수입니다.
+C:\inhaWin25\WinProgramming\Winprogram\main.c(155,9): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+  Winprogram.vcxproj -> C:\inhaWin25\WinProgramming\x64\Debug\Winprogram.exe

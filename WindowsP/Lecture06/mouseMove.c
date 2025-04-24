@@ -5,6 +5,7 @@
 #define WIDTH_MAP 120
 #define HEIGHT_MAP 22
 
+POINT dragOffset = { 0,0 };
 
 typedef struct Windows
 {
@@ -19,7 +20,7 @@ typedef struct Windows
 void gotoxy(int x, int y); //커서 이동 함수
 void draWindow(Windows* win); //윈도우 창 제작 함수
 void setBackground(); //배경 초기화 함수
-void clickPoint(Windows* win, POINT* mousePos, int* isDragging);
+void clickPoint(Windows* win, POINT* mousePos, int* isDragging, POINT* dragOffset);
 
 Windows myWindow[2]; //윈도우 창 갯수 2개
 
@@ -85,7 +86,7 @@ int main(void)
         draWindow(&Window[0]);
 
         // 마우스 클릭 상태 확인
-        clickPoint(&Window[0], &mousePos, &isDragging);
+        clickPoint(&Window[0], &mousePos, &isDragging, &dragOffset);
 
         // 종료 조건: ESC 키를 누르면 프로그램 종료
         if (GetAsyncKeyState(VK_ESCAPE) & 0x8000)
@@ -187,7 +188,7 @@ void setBackground()
     printf("\033[0m"); // 색상 초기화
 }
 
-void clickPoint(Windows* win, POINT* mousePos, int* isDragging)
+void clickPoint(Windows* win, POINT* mousePos, int* isDragging, POINT* dragOffset)
 {
     int mouseX = mousePos->x / 9;
     int mouseY = mousePos->y / 19;
@@ -195,30 +196,38 @@ void clickPoint(Windows* win, POINT* mousePos, int* isDragging)
     // 마우스 클릭 중일 때
     if (GetAsyncKeyState(VK_LBUTTON) & 0x8000 || GetAsyncKeyState(VK_RBUTTON) & 0x8000)
     {
-        // 드래그가 아직 시작되지 않았다면: 클릭 지점이 윈도우 좌표 안에 있을 때만 시작
-        if (*isDragging == 0 &&
-            mouseX >= win->x &&
-            mouseX <= win->x + win->width &&
-            mouseY >= win->y &&
-            mouseY <= win->y + win->height)
+        if (*isDragging == 0)
         {
-            *isDragging = 1;
-        }
+            // 클릭 지점이 윈도우 좌표 안에 있을 때만 드래그 시작
+            if (mouseX >= win->x &&
+                mouseX <= win->x + win->width &&
+                mouseY >= win->y &&
+                mouseY <= win->y + win->height)
+            {
+                *isDragging = 1;
 
-        // 이미 드래그 중이라면 좌표 계속 업데이트
-        if (*isDragging == 1)
+                // 드래그 시작 시점에 마우스와 윈도우 좌상단 간 오프셋 저장
+                dragOffset->x = mouseX - win->x;
+                dragOffset->y = mouseY - win->y;
+            }
+        }
+        else if (*isDragging == 1)
         {
-            // 마우스 위치 업데이트
-            win->x = mouseX;
-            win->y = mouseY;
+            // 오프셋을 고려해 윈도우 위치 계산
+            int newX = mouseX - dragOffset->x;
+            int newY = mouseY - dragOffset->y;
 
             // 바탕화면 범위를 벗어나지 않도록 보정
-            if (win->x < 1) win->x = 1;
-            if (win->y < 1) win->y = 1;
-            if (win->x + win->width >= WIDTH_MAP)
-                win->x = WIDTH_MAP - win->width + 1;
-            if (win->y + win->height >= HEIGHT_MAP)
-                win->y = HEIGHT_MAP - win->height + 1;
+            if (newX < 1) newX = 1;
+            if (newY < 1) newY = 1;
+            if (newX + win->width >= WIDTH_MAP)
+                newX = WIDTH_MAP - win->width + 1;
+            if (newY + win->height >= HEIGHT_MAP)
+                newY = HEIGHT_MAP - win->height + 1;
+
+            // 윈도우 위치 업데이트
+            win->x = newX;
+            win->y = newY;
         }
     }
     else
@@ -227,3 +236,4 @@ void clickPoint(Windows* win, POINT* mousePos, int* isDragging)
         *isDragging = 0;
     }
 }
+

@@ -13,7 +13,7 @@ typedef struct Butten
 }Butten;
 
 
-typedef struct Win 
+typedef struct Win
 {
     int x;              // 윈도우 시작 포인트 x
     int y;              // 윈도우 시작 포인트 y
@@ -27,3 +27,4 @@ typedef struct Win
 
 
 void DrawWin(MyWin a);
+void DrawBackWin(MyWin a);

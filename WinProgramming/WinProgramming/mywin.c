@@ -82,3 +82,51 @@ void DrawWin(MyWin a)
         return;
 }
 
+void clean_DrawWin(MyWin a)
+{
+    int i, j;
+
+    // 배경색을 설정
+    printf("\033[44m");
+    move_cursor(a.y, a.x);
+    for (i = 0; i < a.height; i++)
+    {
+        move_cursor(a.y + i, a.x);
+
+        for (j = 0; j < a.width; j++)
+        {
+            printf(" ");  // 내부 공간
+        }
+
+    }
+    printf("\033[0m");  // 내부 공간
+    return;
+}
+
+void DrawBackWin(MyWin a)
+{
+    int i, j;
+
+    // 배경색을 설정
+    printf("\033[%dm", a.color);
+        // 상단 경계선 그리기
+    move_cursor(a.y, a.x);
+
+    for (i = 0; i < a.height; i++)
+    {
+        move_cursor(a.y + i, a.x);
+
+        for (j = 0; j < a.width; j++)
+        {
+            printf(" ");  // 내부 공간
+        }
+
+    }
+        // 색상 초기화
+    printf("\033[0m"); // 기본 색상으로 복원
+    
+    
+    return;
+}
+
+
