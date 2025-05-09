@@ -34,7 +34,8 @@ int main()
     printAsciiArt();
     gotoxy(28, 11);
     printf("\033[42m\033[45m나는 잘 시험을 보고있나?\033[0m\n");
-    while (1) {
+    while (1) 
+    {
         
             char ch = getch();
             if (ch == 'n' || ch == 'N') 
@@ -55,7 +56,6 @@ int main()
                     gotoxy(30, 9 + i);
                     while(j<20)
                     {
-                        
                         printf("\033[44m ");
                         j++;
                     }

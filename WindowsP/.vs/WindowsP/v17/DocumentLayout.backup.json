@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\inhaWin25\\WindowsP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EE6550C5-7F90-487B-B85E-122A6D970E01}|Lecture10\\Lecture10.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture10\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EE6550C5-7F90-487B-B85E-122A6D970E01}|Lecture10\\Lecture10.vcxproj|solutionrelative:Lecture10\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{92D0B449-1642-4536-87C5-3B1A64E95B9F}|Lecture06\\Lecture06.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture06\\mouseMove.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{92D0B449-1642-4536-87C5-3B1A64E95B9F}|Lecture06\\Lecture06.vcxproj|solutionrelative:Lecture06\\mouseMove.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D9B87A85-0566-421A-A664-8C9531B5FCBC}|Lecture5\\Lecture5.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture5\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{D9B87A85-0566-421A-A664-8C9531B5FCBC}|Lecture5\\Lecture5.vcxproj|solutionrelative:Lecture5\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C67A3EFB-1D27-46E6-919D-047EE96170E7}|Project1\\Project1.vcxproj|C:\\inhaWin25\\WindowsP\\Project1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C67A3EFB-1D27-46E6-919D-047EE96170E7}|Project1\\Project1.vcxproj|solutionrelative:Project1\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A4BB974-2130-4B42-9559-F5874A9BF543}|Lecture07\\Lecture07.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture07\\Lt07.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,34 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "main.c",
-              "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Project1\\main.c",
-              "RelativeDocumentMoniker": "Project1\\main.c",
-              "ToolTip": "C:\\inhaWin25\\WindowsP\\Project1\\main.c",
-              "RelativeToolTip": "Project1\\main.c",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture10\\main.c",
+              "RelativeDocumentMoniker": "Lecture10\\main.c",
+              "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture10\\main.c*",
+              "RelativeToolTip": "Lecture10\\main.c*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-15T06:15:32.441Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-05-08T01:43:29.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "mouseMove.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture06\\mouseMove.c",
               "RelativeDocumentMoniker": "Lecture06\\mouseMove.c",
               "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture06\\mouseMove.c",
               "RelativeToolTip": "Lecture06\\mouseMove.c",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAL4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAADwv2AAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-20T13:46:28.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T13:46:28.973Z"
             },
             {
               "$type": "Document",
@@ -79,22 +77,21 @@
               "RelativeDocumentMoniker": "Lecture06\\key2.c",
               "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture06\\key2.c",
               "RelativeToolTip": "Lecture06\\key2.c",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAABAwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-04-20T13:45:47.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "main.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture5\\main.c",
               "RelativeDocumentMoniker": "Lecture5\\main.c",
               "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture5\\main.c",
               "RelativeToolTip": "Lecture5\\main.c",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-06T15:15:50.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:15:50.297Z"
             }
           ]
         }
