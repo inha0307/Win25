@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Lecture10\\main.c",
               "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture10\\main.c",
               "RelativeToolTip": "Lecture10\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-08T01:43:29.96Z",
               "EditorCaption": ""
@@ -55,7 +55,8 @@
               "RelativeToolTip": "Lecture06\\mouseMove.c",
               "ViewState": "AgIAADYAAAAAAAAAAADwv2AAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-20T13:46:28.973Z"
+              "WhenOpened": "2025-04-20T13:46:28.973Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -67,7 +68,8 @@
               "RelativeToolTip": "Lecture07\\Lt07.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-15T08:29:54.764Z"
+              "WhenOpened": "2025-04-15T08:29:54.764Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -77,9 +79,10 @@
               "RelativeDocumentMoniker": "Lecture06\\key2.c",
               "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture06\\key2.c",
               "RelativeToolTip": "Lecture06\\key2.c",
-              "ViewState": "AgIAAAQAAAAAAAAAAABAwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAABQwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-20T13:45:47.604Z"
+              "WhenOpened": "2025-04-20T13:45:47.604Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -91,7 +94,8 @@
               "RelativeToolTip": "Lecture5\\main.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-06T15:15:50.297Z"
+              "WhenOpened": "2025-04-06T15:15:50.297Z",
+              "EditorCaption": ""
             }
           ]
         }
