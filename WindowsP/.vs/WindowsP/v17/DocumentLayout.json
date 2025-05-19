@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{EE6550C5-7F90-487B-B85E-122A6D970E01}|Lecture10\\Lecture10.vcxproj|solutionrelative:Lecture10\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{85526EE4-7516-4D9B-8AC1-C099529385D5}|Lecture11\\Lecture11.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture11\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{85526EE4-7516-4D9B-8AC1-C099529385D5}|Lecture11\\Lecture11.vcxproj|solutionrelative:Lecture11\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{92D0B449-1642-4536-87C5-3B1A64E95B9F}|Lecture06\\Lecture06.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture06\\mouseMove.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{92D0B449-1642-4536-87C5-3B1A64E95B9F}|Lecture06\\Lecture06.vcxproj|solutionrelative:Lecture06\\mouseMove.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D9B87A85-0566-421A-A664-8C9531B5FCBC}|Lecture5\\Lecture5.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture5\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D9B87A85-0566-421A-A664-8C9531B5FCBC}|Lecture5\\Lecture5.vcxproj|solutionrelative:Lecture5\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A4BB974-2130-4B42-9559-F5874A9BF543}|Lecture07\\Lecture07.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture07\\Lt07.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3A4BB974-2130-4B42-9559-F5874A9BF543}|Lecture07\\Lecture07.vcxproj|solutionrelative:Lecture07\\Lt07.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9B87A85-0566-421A-A664-8C9531B5FCBC}|Lecture5\\Lecture5.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture5\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D9B87A85-0566-421A-A664-8C9531B5FCBC}|Lecture5\\Lecture5.vcxproj|solutionrelative:Lecture5\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\inhaWin25\\WindowsP\\Lecture06\\key2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,8 +34,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture11\\main.c",
+              "RelativeDocumentMoniker": "Lecture11\\main.c",
+              "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture11\\main.c",
+              "RelativeToolTip": "Lecture11\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-05-13T07:25:22.072Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,23 +56,22 @@
               "RelativeDocumentMoniker": "Lecture10\\main.c",
               "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture10\\main.c",
               "RelativeToolTip": "Lecture10\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-08T01:43:29.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "mouseMove.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture06\\mouseMove.c",
               "RelativeDocumentMoniker": "Lecture06\\mouseMove.c",
               "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture06\\mouseMove.c",
               "RelativeToolTip": "Lecture06\\mouseMove.c",
-              "ViewState": "AgIAADYAAAAAAAAAAADwv2AAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-20T13:46:28.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T13:46:28.973Z"
             },
             {
               "$type": "Document",
@@ -68,25 +83,23 @@
               "RelativeToolTip": "Lecture07\\Lt07.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-15T08:29:54.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T08:29:54.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "key2.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture06\\key2.c",
               "RelativeDocumentMoniker": "Lecture06\\key2.c",
               "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture06\\key2.c",
               "RelativeToolTip": "Lecture06\\key2.c",
-              "ViewState": "AgIAAAIAAAAAAAAAAABQwBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAABYwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-20T13:45:47.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T13:45:47.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "main.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture5\\main.c",
               "RelativeDocumentMoniker": "Lecture5\\main.c",
@@ -94,8 +107,7 @@
               "RelativeToolTip": "Lecture5\\main.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-04-06T15:15:50.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:15:50.297Z"
             }
           ]
         }
