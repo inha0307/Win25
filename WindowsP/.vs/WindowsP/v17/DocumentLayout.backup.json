@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{4159EFA9-1485-4CD3-866B-A4833B9F1D0D}|Lecture12 \uACFC\uC81C\\Lecture12 \uACFC\uC81C.vcxproj|solutionrelative:Lecture12 \uACFC\uC81C\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B4833B4-2261-48C2-BA74-2D843A100A2B}|Lecture12\\Lecture12.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture12\\time.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7B4833B4-2261-48C2-BA74-2D843A100A2B}|Lecture12\\Lecture12.vcxproj|solutionrelative:Lecture12\\time.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{85526EE4-7516-4D9B-8AC1-C099529385D5}|Lecture11\\Lecture11.vcxproj|C:\\inhaWin25\\WindowsP\\Lecture11\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{85526EE4-7516-4D9B-8AC1-C099529385D5}|Lecture11\\Lecture11.vcxproj|solutionrelative:Lecture11\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -46,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -62,32 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "time.c",
-              "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture12\\time.c",
-              "RelativeDocumentMoniker": "Lecture12\\time.c",
-              "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture12\\time.c",
-              "RelativeToolTip": "Lecture12\\time.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-05-22T01:42:41.355Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture12\\main.c",
               "RelativeDocumentMoniker": "Lecture12\\main.c",
               "ToolTip": "C:\\inhaWin25\\WindowsP\\Lecture12\\main.c",
               "RelativeToolTip": "Lecture12\\main.c",
-              "ViewState": "AgIAAMgCAAAAAAAAAAAgwPYCAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAANwCAAAAAAAAAAAIwPYCAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-05-20T07:43:25.941Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "main.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture11\\main.c",
               "RelativeDocumentMoniker": "Lecture11\\main.c",
@@ -99,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "main.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture10\\main.c",
               "RelativeDocumentMoniker": "Lecture10\\main.c",
@@ -111,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "mouseMove.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture06\\mouseMove.c",
               "RelativeDocumentMoniker": "Lecture06\\mouseMove.c",
@@ -123,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Lt07.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture07\\Lt07.c",
               "RelativeDocumentMoniker": "Lecture07\\Lt07.c",
@@ -135,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "key2.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture06\\key2.c",
               "RelativeDocumentMoniker": "Lecture06\\key2.c",
@@ -147,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "main.c",
               "DocumentMoniker": "C:\\inhaWin25\\WindowsP\\Lecture5\\main.c",
               "RelativeDocumentMoniker": "Lecture5\\main.c",
