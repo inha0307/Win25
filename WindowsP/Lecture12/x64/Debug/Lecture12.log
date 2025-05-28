@@ -1,0 +1,41 @@
+﻿  main.c
+C:\inhaWin25\WindowsP\packages\glfw.3.4.0\build\native\include\GLFW\glfw3.h(3235,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+C:\inhaWin25\WindowsP\Lecture12\main.c(213,87): warning C4244: '함수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(214,87): warning C4244: '함수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(285,43): warning C4244: '함수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(285,55): warning C4244: '함수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(160,44): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(164,44): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(165,44): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(166,40): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(167,40): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(190,48): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(193,49): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(194,49): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(234,48): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(238,48): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(239,48): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(240,44): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(241,44): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(271,52): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(275,54): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(276,54): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(277,50): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(278,50): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(281,71): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(290,52): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(294,56): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(295,56): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(296,52): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(297,52): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(300,71): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(371,46): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(372,22): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(373,22): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(394,20): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(439,20): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(548,24): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture12\main.c(612,20): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Lecture12.vcxproj -> C:\inhaWin25\WindowsP\x64\Debug\Lecture12.exe

@@ -21,7 +21,7 @@ int main()
     if (!glfwInit())
         return -1;
 
-    GLFWwindow* window = glfwCreateWindow(1000, 1000, "GLFW: CIRCLE", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(1000, 1000, "GLFW: Bonobono", NULL, NULL);
 
     if (!window)
     {

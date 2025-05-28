@@ -2,10 +2,14 @@
 C:\inhaWin25\WindowsP\packages\glfw.3.4.0\build\native\include\GLFW\glfw3.h(3235,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   (소스 파일 'main.c'을(를) 컴파일하는 중)
   
-C:\inhaWin25\WindowsP\Lecture11\main.c(74,46): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\inhaWin25\WindowsP\Lecture11\main.c(75,22): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\inhaWin25\WindowsP\Lecture11\main.c(76,22): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\inhaWin25\WindowsP\Lecture11\main.c(96,46): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\inhaWin25\WindowsP\Lecture11\main.c(99,22): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\inhaWin25\WindowsP\Lecture11\main.c(100,22): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Lecture11.vcxproj -> C:\inhaWin25\WindowsP\x64\Debug\Lecture11.exe
+C:\inhaWin25\WindowsP\Lecture11\main.c(28,30): error C2065: 'M_PI': 선언되지 않은 식별자입니다.
+C:\inhaWin25\WindowsP\Lecture11\main.c(29,22): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture11\main.c(30,22): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture11\main.c(43,20): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\inhaWin25\WindowsP\Lecture11\main.c(173,35): error C2065: 'window': 선언되지 않은 식별자입니다.
+C:\inhaWin25\WindowsP\Lecture11\main.c(173,35): warning C4047: '함수': 'GLFWwindow *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\inhaWin25\WindowsP\Lecture11\main.c(173,35): warning C4024: 'glfwWindowShouldClose': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\inhaWin25\WindowsP\Lecture11\main.c(221,25): error C2065: 'window': 선언되지 않은 식별자입니다.
+C:\inhaWin25\WindowsP\Lecture11\main.c(221,25): warning C4047: '함수': 'GLFWwindow *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\inhaWin25\WindowsP\Lecture11\main.c(221,25): warning C4024: 'glfwSwapBuffers': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+C:\inhaWin25\WindowsP\Lecture11\main.c(177,20): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
