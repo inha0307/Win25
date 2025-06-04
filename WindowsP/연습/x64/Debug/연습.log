@@ -1,0 +1,8 @@
+﻿  main.c
+C:\inhaWin25\WindowsP\packages\glfw.3.4.0\build\native\include\GLFW\glfw3.h(3235,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.c'을(를) 컴파일하는 중)
+  
+C:\inhaWin25\WindowsP\연습\main.c(43,20): warning C4305: '함수': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\inhaWin25\WindowsP\연습\main.c(44,25): warning C4305: '함수': 'double'에서 'GLfloat'(으)로 잘립니다.
+C:\inhaWin25\WindowsP\연습\main.c(45,20): warning C4305: '함수': 'double'에서 'GLfloat'(으)로 잘립니다.
+  연습.vcxproj -> C:\inhaWin25\WindowsP\x64\Debug\연습.exe

@@ -19,6 +19,7 @@ typedef struct rgb {
 void drawCircle(float cx, float cy, float r, int num_segments, RGB rgb);
 void drawEllipse(float cx, float cy, float xRadius, float yRadius, int num_segments, RGB rgb);
 void drawLine(float x1, float y1, float x2, float y2, float thickness, RGB rgb);
+void drawsquare(float x1, float y1, float lenth1, float lenth2, RGB rgb);
 void drawBulkyLine(float x1, float y1, float x2, float y2, float thickness, float bulgeFactor, int numSegments, RGB color);
 void drawDigit(int number, float posX, float posY, float size, float thickness, RGB activeColor, RGB inactiveColor);
 void drawSegmentQuad(float x1, float y1, float x2, float y2, float thickness, RGB color);
@@ -379,7 +380,6 @@ void drawCircle(float cx, float cy, float r, int num_segments, RGB rgb)
     glEnd();
 }
 
-
 // 선 그리는 함수 (사용자 제공)
 void drawLine(float x1, float y1, float x2, float y2, float thickness, RGB rgb)
 {
@@ -428,6 +428,28 @@ void drawLine(float x1, float y1, float x2, float y2, float thickness, RGB rgb)
     glVertex2f(v2x, v2y); // 두 번째 꼭짓점 (v2)
     glVertex2f(v3x, v3y); // 세 번째 꼭짓점 (v3)
     glVertex2f(v4x, v4y); // 네 번째 꼭짓점 (v4)
+    glEnd();
+}
+
+void drawsquare(float x1, float y1, float length1, float length2, RGB rgb)
+{
+    //x2, y2계산
+    float x2 = x1 + length1;
+    float y2 = y1;
+    float x3 = x1;
+    float y3 = y1 - length2;
+    float x4 = x1 + length1;
+    float y4 = y3;
+
+    // 사각형 색상 설정
+    glColor3f(rgb.rgbIn_r, rgb.rgbIn_g, rgb.rgbIn_b);
+
+    // 사각형 그리기 (GL_POLYGON 사용)
+    glBegin(GL_POLYGON);
+    glVertex2f(x1, y1); // 첫 번째 꼭짓점 (v1)
+    glVertex2f(x2, y2); // 두 번째 꼭짓점 (v2)
+    glVertex2f(x4, y4); // 세 번째 꼭짓점 (v3)
+    glVertex2f(x3, y3); // 네 번째 꼭짓점 (v4)
     glEnd();
 }
 
